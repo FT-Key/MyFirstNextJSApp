@@ -1,0 +1,8 @@
+.shape {
+  --alto: 30px;
+  height: 0;
+  width: 0;
+  border-left: var(--alto) solid transparent;
+  border-right: var(--alto) solid transparent;
+  border-bottom: calc(var(--alto) * 1.5) solid #000000;
+}
